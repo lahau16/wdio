@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "*": [ "./*" ],
+            "src/*": ["./src/*"]
+        },
+        "types": ["node", "@wdio/sync","webdriverio","@wdio/mocha-framework"],
+        "typeRoots": ["./types"]
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
+}
