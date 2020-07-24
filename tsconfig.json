@@ -9,6 +9,6 @@
         "typeRoots": ["./types"]
     },
     "include": [
-        "./src/**/*.ts"
+        "./src/**/*.ts", "src/common/helper/browserHandler.js", "src/common/helper/elementHandler.js"
     ]
 }

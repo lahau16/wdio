@@ -26,5 +26,9 @@
     "tsconfig-paths": "^3.9.0",
     "typescript": "^3.9.5",
     "wdio-chromedriver-service": "^6.0.3"
+  },
+  "dependencies": {
+    "read-excel-file": "^4.0.6",
+    "xlsx": "^0.16.4"
   }
 }
